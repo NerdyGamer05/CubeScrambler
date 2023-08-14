@@ -37,7 +37,7 @@ const generateSequence = function(length) {
         // adds chance for 3 layer turns
         scramble.push((num >= 3 && Math.random() < 0.5 ? '3' : '') + randMove + endings[num]);
         // remove all moves whose simplification is now impossible
-        removeIntersections();
+        removeIntersections(randMove);
         count++;
     }
     return scramble;

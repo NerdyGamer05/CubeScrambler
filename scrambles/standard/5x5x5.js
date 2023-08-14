@@ -35,7 +35,7 @@ const generateSequence = function(length) {
         active.add(randMove);
         scramble.push(randMove + endings[randomNum(m)]);
         // remove all moves whose simplification is now impossible
-        removeIntersections();
+        removeIntersections(randMove);
         count++;
     }
     return scramble;
