@@ -27,7 +27,7 @@ const generateSequence = function(length) {
     while (count < length) {
         const randMove = moves[randomNum(n)];
         // check for reset attempts (e.g => F B F/F'/F2) & similar adjacent moves
-        if ((scramble[count-1] && (scramble[count-1].startsWith(randMove)) || scramble[count-1].startsWith('3' + randMove)) || active.has(randMove)) {
+        if ((scramble[count-1] && (scramble[count-1].startsWith(randMove) || scramble[count-1].startsWith('3' + randMove))) || active.has(randMove)) {
             // re-generate random move since current move is invalid
             continue;
         }

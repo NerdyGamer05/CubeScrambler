@@ -1,6 +1,5 @@
 const moves = ['U','D','L','R','F','B'];
-const endings = ['','\'','2','w','w\'','w2'];
-console.log(endings.lengthS);
+const endings = ['','\'','2','w','w\'','w2','w2\''];
 const active = new Set();
 
 const n = moves.length;

@@ -44,4 +44,4 @@ const randomClockScrambleString = function() {
   return moves;
 }
 
-const res = randomClockScrambleString();
+console.log(randomClockScrambleString().join(' '));
