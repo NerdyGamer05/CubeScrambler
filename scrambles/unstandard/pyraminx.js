@@ -12,7 +12,7 @@ const generateSequence = function(length) {
     let count = 0;
     while (count < length) {
         const randMove = moves[randomNum(n)];
-        // check for reset attempts (e.g => F B F/F'/F2) & similar adjacent moves & attempts to touch a moved tip
+        // check similar adjacent moves & attempts to touch a moved tip
         if ((scramble[count-1] && scramble[count-1].startsWith(randMove)) || movedTips.has(randMove)) {
             // re-generate random move since current move is invalid
             continue;
