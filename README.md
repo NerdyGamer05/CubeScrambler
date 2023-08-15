@@ -1,4 +1,4 @@
-# 🧩 CubeScrambler
+# 🧩 Cube Scrambler
 Unofficial scrambler for WCA puzzles cubes using Vanilla JS
 
 # Examples
@@ -8,7 +8,7 @@ Unofficial scrambler for WCA puzzles cubes using Vanilla JS
 5x5 - `F2 Uw' Bw' Lw' Uw2 L2 R Dw F Dw' U F2 Uw B' U2 Rw2 L D2 B D' R Dw' U' Lw Fw2 D2 Lw' F Rw' Uw' Fw U2 Lw F2 U' F L' U' B D' R Bw2 D Lw2 Uw' F' Dw2 F2 D' Rw' Bw2 F2 Uw' R2 Fw L B2 Uw2 Rw2 F` <br />
 6x6 - `3Lw2' B2 F' 3Uw' D2 3Bw2' Dw' Uw Fw' L2 3Dw2 3Bw U2 3Bw2 Dw' R' U' R 3Lw2 Dw B U2 3Lw Bw2' 3Rw F L2 U' F L' F2 3Uw2' 3Lw2' Dw Fw2' B L' Bw2 U2 Bw2' L Bw 3Lw2 B2 Uw' L B2 3Uw' 3Bw2' 3Rw 3Fw 3Rw2 3Lw Fw2 3Uw' 3Lw2' F2 B' 3Dw 3Rw B' F' U' 3Rw' F' 3Bw2' L2 3Dw2' Rw 3Lw2' D2 F' R' 3Lw 3Dw 3Fw2 Uw' Rw2 Uw2' F' U' R Dw' B2 3Uw2` <br />
 7x7 - `L' F 3Rw2 3Fw' U F2 D' F' Rw2' 3Lw 3Fw' 3Lw2 3Uw2' 3Rw' L2 Fw 3Uw2' B' Lw 3Rw2 3Fw' Rw 3Bw2 3Rw2 Lw 3Fw2' Uw 3Fw2 D Bw2 L U' F D R2 Dw2 Fw2' 3Bw2 U' Rw2 3Uw2' Lw Uw 3Dw2 F2 Uw2 Dw2' F' 3Bw2' 3Rw' Uw' Bw2 L' 3Uw2' D' Lw2 F2 U2 R' Bw2' R' 3Lw2' Fw' L' 3Uw2' Bw' Lw2' Fw2 3Dw F U2 Dw' L D' 3Lw2 Uw B' Rw2 Bw2' 3Rw D2 Uw' 3Rw2' Dw 3Lw2 D Bw2' Lw R2 Bw2' 3Fw2' Rw' Dw2 Bw2 D2` <br />
-Clock - `UR1+ DR1+ DL2- UL4+ U5+ R2+ D5- L5- ALL1- y2 U5+ R0+ D3- L1- ALL1- DR DL` <br />
+Magic Clock - `UR1+ DR1+ DL2- UL4+ U5+ R2+ D5- L5- ALL1- y2 U5+ R0+ D3- L1- ALL1- DR DL` <br />
 Pyraminx - `r2 R2 l' B2 R u' B R' U' B' L R2 B L' B' b L2 B2 U R2 L' U' L' R2`
 
 ## 🎲 Algorithm
