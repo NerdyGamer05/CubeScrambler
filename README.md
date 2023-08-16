@@ -12,7 +12,7 @@ Unofficial scrambler for WCA puzzles cubes using Vanilla JS
 7x7 - `L' F 3Rw2 3Fw' U F2 D' F' Rw2' 3Lw 3Fw' 3Lw2 3Uw2' 3Rw' L2 Fw 3Uw2' B' Lw 3Rw2 3Fw' Rw 3Bw2 3Rw2 Lw 3Fw2' Uw 3Fw2 D Bw2 L U' F D R2 Dw2 Fw2' 3Bw2 U' Rw2 3Uw2' Lw Uw 3Dw2 F2 Uw2 Dw2' F' 3Bw2' 3Rw' Uw' Bw2 L' 3Uw2' D' Lw2 F2 U2 R' Bw2' R' 3Lw2' Fw' L' 3Uw2' Bw' Lw2' Fw2 3Dw F U2 Dw' L D' 3Lw2 Uw B' Rw2 Bw2' 3Rw D2 Uw' 3Rw2' Dw 3Lw2 D Bw2' Lw R2 Bw2' 3Fw2' Rw' Dw2 Bw2 D2` <br />
 Pyraminx - `r2 R2 l' B2 R u' B R' U' B' L R2 B L' B' b L2 B2 U R2 L' U' L' R2` <br />
 Megaminx - `D-- R++ D++ R++ U D-- R-- D-- R-- U' R-- U D-- R++ U' D-- R++ D-- U' R-- D-- U' R++ D-- U R-- D++ R++ U' D-- R-- U D++ R-- U' D-- R-- U R++ D-- R-- U D++ R++ D++ U R-- U' R-- U D++ R-- U' D++ R++ D-- U' R++ U D++ R-- D++ R-- D++ R++ D-- U R-- D++ U` <br />
-Skewb - `L' R' U B' L R' U' L' B R' B R L R B' R' U' R L U R' B L B' L'` <br />
+Skewb - `U L' R B L' U B' R' L B R' L'` <br />
 Magic Clock - `UR1+ DR1+ DL2- UL4+ U5+ R2+ D5- L5- ALL1- y2 U5+ R0+ D3- L1- ALL1- DR DL` <br />
 
 ## 🎲 Algorithm
