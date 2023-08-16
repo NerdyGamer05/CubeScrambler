@@ -20,4 +20,4 @@ const generateSequence = function(length) {
     return scramble;
 }
 
-console.log(generateSequence(25).join(' '));
+console.log(generateSequence(12).join(' '));
