@@ -19,7 +19,7 @@ const generateSequence = function(length) {
         }
         // set move to true if it's in active 
         if (randMove in active) active[randMove] = true;
-        if (randMove === 'R') {
+        else if (randMove === 'R') {
             active['U'] = false;
             active['D'] = false;
         }
