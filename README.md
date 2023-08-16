@@ -1,6 +1,8 @@
 # 🧩 Cube Scrambler
 Unofficial scrambler for WCA puzzles cubes using Vanilla JS
 
+[![npm version](https://badge.fury.io/js/cube-scramble.js.svg)](https://www.npmjs.com/package/cube-scramble.js)
+
 # Examples
 2x2 - `U' R B U B U B2 R' D R' F L` <br />
 3x3 - `F2 R B' D2 R' L' F' B2 D2 L B2 F' R F' D R F2 D2 L' U' R B2 D2 R L'` <br />
