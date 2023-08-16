@@ -24,10 +24,10 @@ Let's start with an example. The sequence `L2 R L'` is the same as `L R`. This i
 - 5x5 ✅
 - 6x6 ✅
 - 7x7 ✅
-- Megaminx ❌
+- Megaminx ✅
 - Pyraminx ✅
 - Square-1 ❌
-- Skewb ❌
+- Skewb ✅
 - Clock ✅
 
 ## Usage
