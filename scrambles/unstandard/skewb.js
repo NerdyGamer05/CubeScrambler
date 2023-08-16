@@ -1,5 +1,4 @@
 const moves = ['U','L','R','B'];
-const movedTips = new Set();
 const n = moves.length;
 
 const randomNum = (limit) => Math.floor(Math.random() * limit);
@@ -14,7 +13,7 @@ const generateSequence = function(length) {
             // re-generate random move since current move is invalid
             continue;
         }
-        // add move to scramble sequence with or without counterclock ending
+        // add move to scramble sequence with or without counterclockwise ending
         scramble.push(randMove + (Math.random() < 0.5 ? '\'' : ''));
         count++;
     }
