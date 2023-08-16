@@ -1,7 +1,6 @@
 const moves = ['U','L','R','B','u','l','r','b'];
 const endings = ['','\'','2'];
 const movedTips = new Set();
-
 const n = moves.length;
 const m = endings.length;
 
@@ -19,6 +18,7 @@ const generateSequence = function(length) {
         }
         // adds move to movedTips if the current move is a tip move
         if (/^[ulrb]$/.test(randMove)) movedTips.add(randMove);
+        // add move to scramble sequence
         scramble.push(randMove + endings[randomNum(m)]);
         count++;
     }
