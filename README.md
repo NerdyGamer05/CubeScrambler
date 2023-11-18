@@ -1,5 +1,5 @@
 # 🧩 Cube Scrambler
-Unofficial scrambler for WCA puzzles cubes using Vanilla JS
+Unofficial scrambler for WCA puzzles cubes using Javascript
 
 [![npm version](https://badge.fury.io/js/cube-scramble.js.svg)](https://www.npmjs.com/package/cube-scramble.js)
 
