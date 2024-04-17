@@ -87,6 +87,10 @@ class ScrambleGenerator {
     }
   }
 
+  public getScrambleTypes() {
+    return Object.keys(PuzzleType).map((key) => PuzzleType[key]);
+  }
+
   private pyraminxScramble(): string[] {
     const moves = ['U', 'L', 'R', 'B', 'u', 'l', 'r', 'b'];
     const endings = ['', "'", '2'];
