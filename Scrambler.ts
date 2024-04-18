@@ -10,7 +10,6 @@ enum PuzzleType {
   'megaminx' = 'megaminx',
   'skewb' = 'skewb',
   'clock' = 'clock',
-  'square1' = 'square1',
 }
 
 class ScrambleGenerator {
@@ -60,8 +59,6 @@ class ScrambleGenerator {
         return this.skewbScramble();
       case PuzzleType.clock:
         return this.clockScramble();
-      case PuzzleType.square1:
-        return this.square1Scramble();
     }
   }
 
@@ -162,21 +159,6 @@ class ScrambleGenerator {
       const randMove = moves[this.randomNum(n)];
       if (scramble[count - 1] && scramble[count - 1].startsWith(randMove)) continue;
       scramble.push(randMove + (Math.random() < 0.5 ? "'" : ''));
-      count++;
-    }
-    return scramble;
-  }
-
-  //generate scramble for square1
-  private square1Scramble(): string[] {
-    const moves = ['U', 'D', 'R', 'L', 'u', 'd', 'r', 'l', 'M', 'E', 'S'];
-    const n = moves.length;
-    const scramble: string[] = [];
-    let count = 0;
-    while (count < 25) {
-      const randMove = moves[this.randomNum(n)];
-      if (scramble[count - 1] && scramble[count - 1] === randMove) continue;
-      scramble.push(randMove);
       count++;
     }
     return scramble;
