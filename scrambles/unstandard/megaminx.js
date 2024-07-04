@@ -29,5 +29,3 @@ const generateSequence = function(length) {
     }
     return scramble;
 }
-
-console.log(generateSequence(70).join(' '));

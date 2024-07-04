@@ -24,5 +24,3 @@ const generateSequence = function(length) {
     }
     return scramble;
 }
-
-console.log(generateSequence(25).join(' '));
