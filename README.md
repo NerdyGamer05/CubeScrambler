@@ -14,6 +14,7 @@ Pyraminx - `r2 R2 l' B2 R u' B R' U' B' L R2 B L' B' b L2 B2 U R2 L' U' L' R2` <
 Megaminx - `D-- R++ D++ R++ U D-- R-- D-- R-- U' R-- U D-- R++ U' D-- R++ D-- U' R-- D-- U' R++ D-- U R-- D++ R++ U' D-- R-- U D++ R-- U' D-- R-- U R++ D-- R-- U D++ R++ D++ U R-- U' R-- U D++ R-- U' D++ R++ D-- U' R++ U D++ R-- D++ R-- D++ R++ D-- U R-- D++ U` <br />
 Skewb - `U L' R B L' U B' R' L B R' L'` <br />
 Magic Clock - `UR1+ DR1+ DL2- UL4+ U5+ R2+ D5- L5- ALL1- y2 U5+ R0+ D3- L1- ALL1- DR DL` <br />
+Square-1 - `(-6,2) / (-3,3) / (4,4) / (6,-1) / (2,-3) / (-3,3) / (-5,0) / (-1,-2) / (1,5) / (3,-3) / (3,4) / (2,3)` <br />
 
 ## 🎲 Algorithm
 The reasoning behind the algorithm is pretty straightforward. For the sake of the explanation, let's say we have an NxN cube. A move is selected randomly from a list of possible moves (`U`,`D`,`L`,`R`,`F`,`B`). The random move is then added to the scramble unless **(1)** the random move is same as the last move in the sequence (e.g. `F` is the "same" as `F2`, `F'`, or any other variation that includes `F`) or **(2)** the random move has not been _simplified_ (see below). If the move is deemed valid, a valid ending may be concatenated by random selection (`'` or `2` for **2x2** & **3x3** and `'`, `2`,`w`,`w'`, or `w2` for **4x4**-**7x7**). Additionally, a prefix may concatenated for **6x6** and **7x7** cubes to express triple layer turns (only if the triple layer turn is randomly selected). Once the scramble length hits the predetermined length, the scrambler cuts off and the scramble sequence is returned.
@@ -30,7 +31,7 @@ Let's start with an example. The sequence `L2 R L'` is the same as `L R`. This i
 - 7x7 ✅
 - Megaminx ✅
 - Pyraminx ✅
-- Square-1 ❌
+- Square-1 ✅ (no Typescript though)
 - Skewb ✅
 - Clock ✅
 

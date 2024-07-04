@@ -1,0 +1,21 @@
+{
+  "name": "scramblecube",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "222": "node ./scrambles/standard/2x2x2.js",
+    "333": "node ./scrambles/standard/3x3x3.js",
+    "444": "node ./scrambles/standard/4x4x4.js",
+    "555": "node ./scrambles/standard/5x5x5.js",
+    "666": "node ./scrambles/standard/6x6x6.js",
+    "777": "node ./scrambles/standard/7x7x7.js",
+    "pyraminx": "node ./scrambles/unstandard/pyraminx.js",
+    "clock": "node ./scrambles/unstandard/magicClock.js",
+    "megaminx": "node ./scrambles/unstandard/megaminx.js",
+    "skewb": "node ./scrambles/unstandard/skewb.js",
+    "square1": "node ./scrambles/unstandard/square1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
