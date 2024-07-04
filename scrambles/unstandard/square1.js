@@ -128,3 +128,5 @@ const generateSequence = function(length) {
     }
     return scramble;
 }
+
+console.log(generateSequence(12).map(move => `(${move.top},${move.bottom})`).join(' / '));

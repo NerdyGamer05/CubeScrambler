@@ -43,3 +43,5 @@ const randomClockScrambleString = function() {
   }
   return moves;
 }
+
+console.log(randomClockScrambleString().join(' '));

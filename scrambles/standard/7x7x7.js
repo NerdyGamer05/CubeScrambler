@@ -42,3 +42,5 @@ const generateSequence = function(length) {
     }
     return scramble;
 }
+
+console.log(generateSequence(95).join(' '));
